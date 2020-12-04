@@ -2,19 +2,24 @@
   display: flex;
   justify-content: space-between;
   font-weight: 500;
-  height: 120px;
+  height: 127px;
   background-image: url(../img/headerShape.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
+  background-position: bottom;
+  z-index: 1;
 }
 
-.brand-container a {
-  display: block;
-  margin-left: 62px;
-}
+.brand-container {
+  padding-left: 4.6%;
 
-.brand-container img {
-  width: 159px;
+  a {
+    display: block;
+  }
+
+  img {
+    width: 159px;
+  }
 }
 
 .main-nav {
@@ -44,5 +49,5 @@
 
 .language {
   margin-top: 51px;
-  margin-right: 62px;
+  margin-right: 4.6%;
 }
