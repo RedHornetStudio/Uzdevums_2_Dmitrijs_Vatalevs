@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +60,31 @@
     </section>
 
     <section class="join">
-      
+      <div>
+        <h3>VĒLIES PIEPILDĪT SAVU SAPNI?</h3>
+        <button>Sapņotājiem</button>
+      </div>
+      <div>
+        <h3>VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?</h3>
+        <button>Uzņēmējiem</button>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2 class="contact-header">SAZINĀTIES AR MUMS</h1>
+      <form class="contact-form">
+        <input type="text" name="name" id="name" placeholder="Vārds, Uzvārds*">
+        <input type="text" name="email" id="email" placeholder="E-pasts*">
+        <input type="text" name="number" id="numberr" placeholder="Telefons*">
+        <textarea name="question" id="question" placeholder="Jautājums, vai komentārs*"></textarea>
+        <div>* obligāti aizpildāmie lauki</div>
+        <div class="checkbox-container">
+          <input type="checkbox" name="agree" id="agree">
+          <label for="agree" class="agree-checkmark"><span>&#10003;</span></label>
+          <label class="agree-label">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+        </div>
+        <button>Sūtīt</button>
+      </form>
     </section>
   </main>
   <script src="assets/js/theme.js"></script>

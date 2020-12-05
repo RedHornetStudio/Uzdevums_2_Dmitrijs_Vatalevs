@@ -1,0 +1,98 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-header {
+  margin-bottom: 58px;
+}
+
+.contact-form {
+  max-width: 612px;
+  margin: 0 20px;
+
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 11px;
+    background-color: #c4c4c466;
+    border: none;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+  }
+
+  textarea {
+    height: 233px;
+  }
+
+  div {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 33px;
+  }
+
+  .checkbox-container {
+    margin-bottom: 55px;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+    width: 182px;
+    height: 62px;
+    font-size: 24px;
+    border-radius: 31px;
+  }
+}
+
+#name,
+#email {
+  display: inline-block;
+  width: 48%;
+}
+
+#name {
+  margin-right: 18px;
+}
+
+// custom checkbox
+#agree {
+  display: none;
+}
+
+.agree-checkmark {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 18px;
+  vertical-align: top;
+  background-color: #c4c4c466;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+
+  span {
+    opacity: 0;
+  }
+}
+
+#agree:checked + .agree-checkmark {
+  background-color: $secondaryColor;
+
+  span {
+    opacity: 1;
+  }
+}
+
+.agree-label {
+  display: inline-block;
+  width: 92%;
+  vertical-align: top;
+  font-size: 14px;
+}
