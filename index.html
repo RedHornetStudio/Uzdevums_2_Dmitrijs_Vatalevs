@@ -73,11 +73,13 @@
     <section class="contact">
       <h2 class="contact-header">SAZINĀTIES AR MUMS</h1>
       <form class="contact-form">
-        <input type="text" name="name" id="name" placeholder="Vārds, Uzvārds*">
-        <input type="text" name="email" id="email" placeholder="E-pasts*">
-        <input type="text" name="number" id="numberr" placeholder="Telefons*">
+        <div class="name-email-contaienr">
+          <input type="text" name="name" id="name" placeholder="Vārds, Uzvārds*">
+          <input type="text" name="email" id="email" placeholder="E-pasts*">
+        </div>
+        <input type="text" name="telephone" id="telephone" placeholder="Telefons*">
         <textarea name="question" id="question" placeholder="Jautājums, vai komentārs*"></textarea>
-        <div>* obligāti aizpildāmie lauki</div>
+        <div class="mandatory">* obligāti aizpildāmie lauki</div>
         <div class="checkbox-container">
           <input type="checkbox" name="agree" id="agree">
           <label for="agree" class="agree-checkmark"><span>&#10003;</span></label>
