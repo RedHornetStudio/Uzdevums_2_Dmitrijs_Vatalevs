@@ -1,0 +1,19 @@
+.supporters {
+  background-image: url(../img/supportersShape.png), linear-gradient(transparent 3vw, $secondaryColorLite 3vw);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  h3 {
+    margin-top: 99px;
+    text-align: center;
+  }
+
+  .supporters-brands {
+    display: flex;
+    height: 245px;
+    margin: 0 12%;
+    margin-bottom: 105px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

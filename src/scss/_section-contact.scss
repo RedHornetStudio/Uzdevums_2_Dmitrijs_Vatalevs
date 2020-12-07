@@ -48,6 +48,7 @@
     height: 62px;
     font-size: 24px;
     border-radius: 31px;
+    margin-bottom: 150px;
   }
 }
 
@@ -90,6 +91,14 @@
   span {
     opacity: 1;
   }
+}
+
+#agree:active + .agree-checkmark {
+  background-color: #9c9c9c66;
+}
+
+#agree:checked:active + .agree-checkmark {
+  background-color: #ffbd39;
 }
 
 .agree-label {

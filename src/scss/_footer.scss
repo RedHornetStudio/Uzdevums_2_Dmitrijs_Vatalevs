@@ -1,0 +1,153 @@
+footer {
+  margin-top: -3%;
+  padding-bottom: 20px;
+  background-image: linear-gradient(transparent 3vw, $primaryColor 3vw), url(../img/footerShape.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 6fr 6fr 7fr 7fr;
+  grid-template-rows: max-content;
+  margin-top: 5%;
+  color: white;
+
+  @media (max-width: 1250px) {
+    grid-template-columns: 3fr 1fr 3fr;
+  }
+}
+
+.logo-container {
+  grid-row: 1 / span 3;
+  justify-self: center;
+
+  @media (max-width: 1250px) {
+    grid-row: 1 / span 2;
+  }
+}
+
+.footer-nav {
+  grid-row: 1 / span 3;
+  justify-self: center;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+    li {
+      margin-bottom: 23px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  @media (max-width: 1250px) {
+    display: none;
+  }
+}
+
+.association {
+  margin-bottom: 17px;
+  font-size: 24px;
+
+  @media (max-width: 1250px) {
+    display: none;
+  }
+}
+
+
+.registration {
+  grid-row: 2 / span 1;
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 1250px) {
+    display: none;
+  }
+}
+
+.name {
+  grid-column: -2;
+  margin-right: 17%;
+  justify-self: end;
+  margin-bottom: 17px;
+  font-size: 24px;
+
+  @media (max-width: 1250px) {
+    justify-self: center;
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    margin: 20px 0;
+  }
+}
+
+.contacts {
+  margin-right: 17%;
+  justify-self: end;
+  text-align: right;
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 1;
+
+  div {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 1250px) {
+    grid-column: 3 / span 1;
+  }
+}
+
+.social-media {
+  margin-right: 17%;
+  justify-self: end;
+  grid-column: 4 / span 1;
+  grid-row: 3 / span 1;
+
+  img {
+    margin-left: 20px;
+  }
+
+  @media (max-width: 1250px) {
+    grid-column: 3 / span 1;
+  }
+}
+
+.copyright {
+  grid-row: 4 / span 1;
+  margin-left: 20%;
+  font-size: 14px;
+
+  span {
+    display: block;
+  }
+}
+
+.privacy-police {
+  margin-right: 17%;
+  justify-self: end;
+  align-self: flex-end;
+  grid-column: 4 / span 1;
+  grid-row: 4 / span 1;
+  font-size: 14px;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  @media (max-width: 1250px) {
+    grid-column: 3 / span 1;
+  }
+}
