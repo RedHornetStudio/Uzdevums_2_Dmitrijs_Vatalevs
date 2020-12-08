@@ -57,6 +57,18 @@
   width: 48%;
 }
 
+@media (max-width: 700px) {
+  .contact-form .name-email-contaienr {
+    flex-direction: column;
+  }
+
+  #name,
+  #email {
+    width: 100%;
+  }
+}
+
+
 // custom checkbox
 .checkbox-container {
   display: flex;
@@ -106,4 +118,10 @@
   width: 93%;
   vertical-align: top;
   font-size: 14px;
+}
+
+@media (max-width: 400px) {
+  .agree-label {
+    width: 90%;
+  }
 }

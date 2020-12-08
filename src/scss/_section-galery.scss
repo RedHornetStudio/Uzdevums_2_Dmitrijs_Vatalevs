@@ -23,3 +23,36 @@
 .img-four-container {
   grid-row: 2;
 }
+
+@media (max-width: 700px) {
+  .gallery {
+    grid-template-columns: 138fr 30fr 167fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    // height: 700px;
+  }
+
+  .img-one-container {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 1;
+  }
+
+  .img-two-container {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  .img-three-container {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .img-four-container {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  .img-five-container {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+  }
+}
