@@ -1,1 +1,3 @@
-# Uzdevums_2_Dmitrijs_Vatalevs
+Lai nokompilētu scss un js failus komandrindā nepieciešams ievadīt sekojošas komandas:
+npm install
+npm run build
