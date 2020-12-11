@@ -120,6 +120,18 @@
   font-size: 14px;
 }
 
+@media (max-width: 510px) {
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-form .mandatory,
+  .agree-label {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 400px) {
   .agree-label {
     width: 90%;
