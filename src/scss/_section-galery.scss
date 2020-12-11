@@ -27,8 +27,8 @@
 @media (max-width: 700px) {
   .gallery {
     grid-template-columns: 138fr 30fr 167fr;
-    grid-template-rows: 1fr 1fr 2fr;
-    // height: 700px;
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
+    height: 110vw;
   }
 
   .img-one-container {
